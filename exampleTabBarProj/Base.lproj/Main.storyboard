@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wmj-co-Tew">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="exampleTabBarProj" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5V-IC-tkS">
+                                <rect key="frame" x="217" y="289" width="167" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="2OJ-39-RDC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l5V-IC-tkS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="269" id="80R-ae-VZW"/>
+                            <constraint firstItem="l5V-IC-tkS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IKq-QX-HeO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="l5V-IC-tkS" secondAttribute="bottom" constant="241" id="a4U-co-GwY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="OGl-Sg-y2V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="330"/>
+        </scene>
+        <!--NavigationView-->
+        <scene sceneID="Ygl-ZU-Dur">
+            <objects>
+                <viewController title="NavigationView" id="Lxo-Rq-4YC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b6R-hm-Uzy"/>
+                        <viewControllerLayoutGuide type="bottom" id="g3p-Bm-Qf1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jwr-KU-6ZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some navigation view " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOu-Ua-xvx">
+                                <rect key="frame" x="206" y="289" width="188" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="h3J-uw-YyP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aOu-Ua-xvx" firstAttribute="top" secondItem="b6R-hm-Uzy" secondAttribute="bottom" constant="269" id="DkG-1D-GpG"/>
+                            <constraint firstItem="aOu-Ua-xvx" firstAttribute="centerX" secondItem="jwr-KU-6ZJ" secondAttribute="centerX" id="psn-uK-I3t"/>
+                            <constraint firstItem="g3p-Bm-Qf1" firstAttribute="top" secondItem="aOu-Ua-xvx" secondAttribute="bottom" constant="241" id="uMx-cD-5l3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Navigation" id="rsX-fS-1CO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z89-7o-TLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="744"/>
+        </scene>
+        <!--CalculatorView-->
+        <scene sceneID="Xeg-TA-G51">
+            <objects>
+                <viewController title="CalculatorView" id="8sv-TY-z7X" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="68g-EI-Ky0"/>
+                        <viewControllerLayoutGuide type="bottom" id="v9u-eX-CGL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AVA-WT-VRW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator would go here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3K-Dg-EYE">
+                                <rect key="frame" x="200" y="289" width="201" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="jFw-4I-xAo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e3K-Dg-EYE" firstAttribute="centerX" secondItem="AVA-WT-VRW" secondAttribute="centerX" id="CXu-BW-iwl"/>
+                            <constraint firstItem="e3K-Dg-EYE" firstAttribute="top" secondItem="68g-EI-Ky0" secondAttribute="bottom" constant="269" id="VrI-WD-5sF"/>
+                            <constraint firstItem="v9u-eX-CGL" firstAttribute="top" secondItem="e3K-Dg-EYE" secondAttribute="bottom" constant="241" id="lqR-kx-TcF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calculator" id="hH2-Z9-0q3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4z-Z3-Lo1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="-66"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="bGF-f5-idA">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wmj-co-Tew" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ESR-fX-l8Q">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qO0-s2-geZ"/>
+                        <segue destination="8sv-TY-z7X" kind="relationship" relationship="viewControllers" id="08w-wL-yo4"/>
+                        <segue destination="Lxo-Rq-4YC" kind="relationship" relationship="viewControllers" id="KDR-hr-lwQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VVw-0B-Ncq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="330"/>
+        </scene>
+    </scenes>
+</document>
